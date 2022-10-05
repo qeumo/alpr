@@ -1,0 +1,174 @@
+2022-10-02 12:05:54,606 INFO    StreamThr :2895851 [internal.py:wandb_internal():91] W&B internal server running at pid: 2895851, started at: 2022-10-02 12:05:54.605581
+2022-10-02 12:05:54,610 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: status
+2022-10-02 12:05:54,612 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: status
+2022-10-02 12:05:54,613 DEBUG   SenderThread:2895851 [sender.py:send():301] send: header
+2022-10-02 12:05:54,613 INFO    WriterThread:2895851 [datastore.py:open_for_write():75] open: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/run-31g0bajk.wandb
+2022-10-02 12:05:54,626 DEBUG   SenderThread:2895851 [sender.py:send():301] send: run
+2022-10-02 12:05:54,637 INFO    SenderThread:2895851 [sender.py:_maybe_setup_resume():578] checking resume status for None/YOLOv5/31g0bajk
+2022-10-02 12:05:55,485 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: check_version
+2022-10-02 12:05:55,487 INFO    SenderThread:2895851 [dir_watcher.py:__init__():216] watching files in: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files
+2022-10-02 12:05:55,487 INFO    SenderThread:2895851 [sender.py:_start_run_threads():915] run started: 31g0bajk with start time 1664701554.600488
+2022-10-02 12:05:55,487 DEBUG   SenderThread:2895851 [sender.py:send():301] send: summary
+2022-10-02 12:05:55,487 INFO    SenderThread:2895851 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:05:55,488 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: check_version
+2022-10-02 12:05:55,667 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: run_start
+2022-10-02 12:05:55,682 DEBUG   HandlerThread:2895851 [meta.py:__init__():34] meta init
+2022-10-02 12:05:55,682 DEBUG   HandlerThread:2895851 [meta.py:__init__():49] meta init done
+2022-10-02 12:05:55,682 DEBUG   HandlerThread:2895851 [meta.py:probe():215] probe
+2022-10-02 12:05:55,690 DEBUG   HandlerThread:2895851 [meta.py:_setup_git():205] setup git
+2022-10-02 12:05:55,709 DEBUG   HandlerThread:2895851 [meta.py:_setup_git():212] setup git done
+2022-10-02 12:05:55,709 DEBUG   HandlerThread:2895851 [meta.py:_save_pip():53] save pip
+2022-10-02 12:05:55,709 DEBUG   HandlerThread:2895851 [meta.py:_save_pip():67] save pip done
+2022-10-02 12:05:55,710 DEBUG   HandlerThread:2895851 [meta.py:_save_conda():74] save conda
+2022-10-02 12:05:56,489 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/wandb-summary.json
+2022-10-02 12:05:56,489 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/requirements.txt
+2022-10-02 12:05:56,489 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/conda-environment.yaml
+2022-10-02 12:05:59,353 DEBUG   HandlerThread:2895851 [meta.py:_save_conda():84] save conda done
+2022-10-02 12:05:59,353 DEBUG   HandlerThread:2895851 [meta.py:probe():253] probe done
+2022-10-02 12:05:59,388 DEBUG   SenderThread:2895851 [sender.py:send():301] send: files
+2022-10-02 12:05:59,389 INFO    SenderThread:2895851 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-10-02 12:05:59,396 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-02 12:05:59,397 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: stop_status
+2022-10-02 12:05:59,491 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/conda-environment.yaml
+2022-10-02 12:05:59,491 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/wandb-metadata.json
+2022-10-02 12:05:59,601 DEBUG   SenderThread:2895851 [sender.py:send():301] send: telemetry
+2022-10-02 12:06:00,200 INFO    Thread-17 :2895851 [upload_job.py:push():139] Uploaded file /tmp/tmp2toxg9unwandb/x71vogrh-wandb-metadata.json
+2022-10-02 12:06:00,491 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:01,031 DEBUG   SenderThread:2895851 [sender.py:send():301] send: config
+2022-10-02 12:06:02,492 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:04,493 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:06,493 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:08,494 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:14,497 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:14,606 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-02 12:06:14,610 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: stop_status
+2022-10-02 12:06:16,498 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:18,499 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:22,501 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:24,178 DEBUG   SenderThread:2895851 [sender.py:send():301] send: stats
+2022-10-02 12:06:24,501 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:25,502 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/config.yaml
+2022-10-02 12:06:25,923 DEBUG   SenderThread:2895851 [sender.py:send():301] send: exit
+2022-10-02 12:06:25,924 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:25,924 INFO    SenderThread:2895851 [sender.py:send_exit():437] handling exit code: 1
+2022-10-02 12:06:25,931 INFO    SenderThread:2895851 [sender.py:send_exit():439] handling runtime: 30
+2022-10-02 12:06:25,936 INFO    SenderThread:2895851 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:06:25,939 INFO    SenderThread:2895851 [sender.py:send_exit():445] send defer
+2022-10-02 12:06:25,940 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:25,943 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:25,945 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-02 12:06:25,946 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:25,947 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-10-02 12:06:25,947 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 1
+2022-10-02 12:06:25,947 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:25,947 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-02 12:06:26,000 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:26,000 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-10-02 12:06:26,000 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 2
+2022-10-02 12:06:26,001 DEBUG   SenderThread:2895851 [sender.py:send():301] send: stats
+2022-10-02 12:06:26,001 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:26,001 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-02 12:06:26,002 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:26,002 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-10-02 12:06:26,002 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 3
+2022-10-02 12:06:26,002 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:26,002 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-02 12:06:26,005 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:26,005 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-10-02 12:06:26,005 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 4
+2022-10-02 12:06:26,006 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:26,006 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-02 12:06:26,007 DEBUG   SenderThread:2895851 [sender.py:send():301] send: summary
+2022-10-02 12:06:26,008 INFO    SenderThread:2895851 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:06:26,009 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:26,009 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-10-02 12:06:26,009 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 5
+2022-10-02 12:06:26,009 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:26,009 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-02 12:06:26,009 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:26,009 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-10-02 12:06:26,010 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 6
+2022-10-02 12:06:26,010 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:26,010 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-02 12:06:26,010 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:26,010 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-10-02 12:06:26,050 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:26,795 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/wandb-summary.json
+2022-10-02 12:06:27,727 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 7
+2022-10-02 12:06:27,727 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:27,728 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:27,728 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-02 12:06:27,728 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:27,728 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-10-02 12:06:27,728 INFO    SenderThread:2895851 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-02 12:06:27,795 INFO    Thread-13 :2895851 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:27,796 INFO    SenderThread:2895851 [dir_watcher.py:finish():392] scan: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files
+2022-10-02 12:06:27,796 INFO    SenderThread:2895851 [dir_watcher.py:finish():406] scan save: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/wandb-metadata.json wandb-metadata.json
+2022-10-02 12:06:27,796 INFO    SenderThread:2895851 [dir_watcher.py:finish():406] scan save: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/requirements.txt requirements.txt
+2022-10-02 12:06:27,796 INFO    SenderThread:2895851 [dir_watcher.py:finish():406] scan save: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/conda-environment.yaml conda-environment.yaml
+2022-10-02 12:06:27,796 INFO    SenderThread:2895851 [dir_watcher.py:finish():406] scan save: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/wandb-summary.json wandb-summary.json
+2022-10-02 12:06:27,797 INFO    SenderThread:2895851 [dir_watcher.py:finish():406] scan save: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/config.yaml config.yaml
+2022-10-02 12:06:27,797 INFO    SenderThread:2895851 [dir_watcher.py:finish():406] scan save: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log output.log
+2022-10-02 12:06:27,804 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 8
+2022-10-02 12:06:27,812 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:27,813 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-02 12:06:27,816 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:27,816 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-10-02 12:06:27,816 INFO    SenderThread:2895851 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-02 12:06:27,829 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:27,829 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:27,930 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:27,931 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,032 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,032 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,133 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,133 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,235 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,235 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,336 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,337 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,431 INFO    Thread-20 :2895851 [upload_job.py:push():139] Uploaded file /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/wandb-summary.json
+2022-10-02 12:06:28,438 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,438 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,539 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,539 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,542 INFO    Thread-19 :2895851 [upload_job.py:push():139] Uploaded file /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/conda-environment.yaml
+2022-10-02 12:06:28,544 INFO    Thread-22 :2895851 [upload_job.py:push():139] Uploaded file /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/output.log
+2022-10-02 12:06:28,545 INFO    Thread-21 :2895851 [upload_job.py:push():139] Uploaded file /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/config.yaml
+2022-10-02 12:06:28,546 INFO    Thread-18 :2895851 [upload_job.py:push():139] Uploaded file /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/files/requirements.txt
+2022-10-02 12:06:28,648 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:28,648 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:28,748 INFO    Thread-12 :2895851 [sender.py:transition_state():458] send defer: 9
+2022-10-02 12:06:28,749 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:28,749 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-02 12:06:28,749 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:28,749 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-10-02 12:06:28,750 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:29,285 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 10
+2022-10-02 12:06:29,286 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:29,286 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:29,286 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-02 12:06:29,287 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:29,287 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-10-02 12:06:29,287 INFO    SenderThread:2895851 [sender.py:transition_state():458] send defer: 11
+2022-10-02 12:06:29,288 DEBUG   SenderThread:2895851 [sender.py:send():301] send: final
+2022-10-02 12:06:29,288 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:06:29,288 DEBUG   SenderThread:2895851 [sender.py:send():301] send: footer
+2022-10-02 12:06:29,288 INFO    HandlerThread:2895851 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-02 12:06:29,289 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:06:29,289 INFO    SenderThread:2895851 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-10-02 12:06:29,389 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:06:29,389 DEBUG   SenderThread:2895851 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:06:29,389 INFO    SenderThread:2895851 [file_pusher.py:join():173] waiting for file pusher
+2022-10-02 12:06:30,008 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-02 12:06:30,009 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-02 12:06:30,010 INFO    MainThread:2895851 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-10-02 12:06:30,010 INFO    MainThread:2895851 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-10-02 12:06:30,010 INFO    MainThread:2895851 [wandb_run.py:_footer_sync_info():3277] logging synced files
+2022-10-02 12:06:30,010 DEBUG   HandlerThread:2895851 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-02 12:06:30,010 INFO    HandlerThread:2895851 [handler.py:finish():807] shutting down handler
+2022-10-02 12:06:30,289 INFO    WriterThread:2895851 [datastore.py:close():279] close: /home/kpavel/PycharmProjects/cardet/yolov5/wandb/run-20221002_120554-31g0bajk/run-31g0bajk.wandb
+2022-10-02 12:06:30,905 INFO    SenderThread:2895851 [sender.py:finish():1315] shutting down sender
+2022-10-02 12:06:30,905 INFO    SenderThread:2895851 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-02 12:06:30,906 INFO    SenderThread:2895851 [file_pusher.py:join():173] waiting for file pusher
+2022-10-02 12:06:31,014 INFO    MainThread:2895851 [internal.py:handle_exit():78] Internal process exited

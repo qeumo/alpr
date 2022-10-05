@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.15.65-1-MANJARO-x86_64-with-arch-Manjaro-Linux",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-10-02T09:08:29.977659",
+    "startedAt": "2022-10-02T09:08:28.775125",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX150",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "1",
+        "--epochs",
+        "50",
+        "--data",
+        "data/dataset.yaml",
+        "--weights",
+        "yolov5m.pt"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "8a19437690548a158b78ab27b7f5b463a268fa19"
+    },
+    "email": "kpavel",
+    "root": "/home/kpavel/PycharmProjects/cardet/yolov5",
+    "host": "kpavel-pc",
+    "username": "kpavel",
+    "executable": "/home/kpavel/anaconda3/envs/cardet/bin/python"
+}
