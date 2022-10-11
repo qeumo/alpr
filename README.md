@@ -33,9 +33,12 @@ For reading text from plate add cropped image path.
 ## Car detection and classification
 ### Train
 For car classification task we fine-tuned yolov5 model from yolov5m.pt weights.
+Vehicle classes: Car, Motorcycle, Truck, Bus, Bicycle
 ```
 python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
 ```
+You can check train summary at G.Drive link below
+
 ### Test
 Training step gives us new weights which we further use for car classification
 ```
