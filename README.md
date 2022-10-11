@@ -20,12 +20,12 @@ Initially, after extracting the license plate and its binarization, it was plann
 ## Plate detection and OCR
 
 We use Russian plate Image Dataset from roboflow. Copy file 'data.yaml' from the dataset to folder '../yolo/data'
-!cp "../yolov5/Russian-plate-1/data.yaml" "../yolov5/data"
+`!cp "../yolov5/Russian-plate-1/data.yaml" "../yolov5/data"`
 
 Add path to data.yaml with parameter --data
-!python train.py --img 640 --batch 4 --epochs 20 --data data.yaml --weights yolov5s.pt --cache
+`!python train.py --img 640 --batch 4 --epochs 20 --data data.yaml --weights yolov5s.pt --cache`
 
 For plate recognition add path to the *.jpg, *.mp4 after parameter '--source'. After detecting cropped image will be save to '../run/exp/crop//
-!python detect.py --weights runs/train/exp/weights/best.pt --img 640 --save-crop --conf 0.25 --source *.jpg
+`!python detect.py --weights runs/train/exp/weights/best.pt --img 640 --save-crop --conf 0.25 --source *.jpg`
 
 For reading text from plate add cropped image path.
