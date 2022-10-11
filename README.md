@@ -1,4 +1,4 @@
-# alpr
+# Automatic Licence Plate Recognition
 ## About
 This repository presents the result of the work of 12 teams on a task within the framework of the subject of deep machine learning in practice
 
@@ -29,3 +29,19 @@ For plate recognition add path to the *.jpg, *.mp4 after parameter '--source'. A
 <br>`!python detect.py --weights runs/train/exp/weights/best.pt --img 640 --save-crop --conf 0.25 --source *.jpg`
 
 For reading text from plate add cropped image path.
+
+## Car detection and classification
+### Train
+For car classification task we fine-tuned yolov5 model from yolov5m.pt weights.
+```
+python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
+```
+### Test
+Training step gives us new weights which we further use for car classification
+```
+python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/imtest13.JPG
+```
+Trained weights and dataset can be downloaded from G.Drive
+https://drive.google.com/drive/folders/1P86wZTmQo8vZsFlwiXVue3wKF5Bh6Q0q?usp=sharing
+
+
