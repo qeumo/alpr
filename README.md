@@ -31,9 +31,14 @@ For plate recognition add path to the *.jpg, *.mp4 after parameter '--source'. A
 For reading text from plate add cropped image path.
 
 ## Car detection and classification
-### Train
+
 For car classification task we fine-tuned yolov5 model from yolov5m.pt weights.
 Vehicle classes: Car, Motorcycle, Truck, Bus, Bicycle
+
+Car classification example
+![Alt text](https://github.com/qeumo/alpr/blob/main/vehicle_classification/cardetect.jpg?raw=true "Optional Title")
+
+### Train
 ```
 python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
 ```
