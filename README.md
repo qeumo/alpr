@@ -52,4 +52,8 @@ python detect.py --weights runs/train/exp12/weights/best.pt --source test_images
 Trained weights and dataset can be downloaded from G.Drive
 https://drive.google.com/drive/folders/1P86wZTmQo8vZsFlwiXVue3wKF5Bh6Q0q?usp=sharing
 
+## Project summary
+The solution we have obtained is light enough to be run on a conventional CPU, however, in the case of an increase in the number of cameras, GPU involvement is required for parallel image processing.  
+The work of the model in some parts of the work (the detection of the sign and the class of the car) showed good results, while in the field of image processing the results can be considered unsatisfactory. To improve the quality of recognition, we should increase the amount of data in the dataset and consider other models.  
+
 
